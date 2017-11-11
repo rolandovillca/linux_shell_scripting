@@ -16,7 +16,7 @@ until [ "$selection" = "0" ]; do
     case $selection in 
         1) df ;;
         2) free ;;
-        0) exit ;;
+        0) kill -9 888 ;;
         *) echo "Please enter 1, 2, or 0"
     esac
 done
