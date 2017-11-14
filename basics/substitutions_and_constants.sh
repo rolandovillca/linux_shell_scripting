@@ -8,7 +8,6 @@ right_now=$(date +"%x %r %Z")
 # Nesting variable:
 time_stamp="Updated on $right_now by $USER"
 
-
 # CONSTANTS:
 # =========
 TITLE="Learning constants for $HOSTNAME"
