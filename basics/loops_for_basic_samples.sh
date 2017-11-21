@@ -28,3 +28,9 @@ CMD="ls /tmp"
 for i in $($CMD); do
     echo "$i"
 done
+
+echo "----------"
+
+for word in word1 word2 word3 word4 word5; do
+    echo $word
+done
