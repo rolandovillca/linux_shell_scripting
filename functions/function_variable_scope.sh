@@ -25,6 +25,7 @@ var_change
 echo "After function call: var1 is $var1 : var2 is $var2"
 
 # BEST PRACTICE:
+# =============
 # Always use local variables within functions.
 # Use global variables as a last resort and
 # consider if there is a better way to do it before using them.
