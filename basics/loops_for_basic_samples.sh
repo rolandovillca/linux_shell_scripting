@@ -35,3 +35,11 @@ for word in word1 word2 word3 word4 word5; do
     echo $word
 done
 
+# Example 5:
+# =========
+echo "----------"
+
+for i in {1..5}; do
+    echo $i
+done
+
